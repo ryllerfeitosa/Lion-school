@@ -8,25 +8,38 @@
     <title>Lion School</title>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-100 min-h-screen justify-between flex flex-col">
 
-    <header class="bg-[#3347B0] text-white px-6 py-4">
+    <header class="bg-[#3347B0] text-white px-20 py-6 w-auto">
         <div class="flex items-center justify-between">
 
             <div class="flex items-center gap-3">
-                <img src="img/logo-image.png" alt="Logo da empresa" class="h-10 w-auto">
+                <img src="img/logo-image.png" alt="Logo da empresa" class="h-20 w-auto">
                 <h1 class="text-xl font-bold">Lion School</h1>
             </div>
 
             <div class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-                <img src="img/logo-sair.png" alt="Icone do botao sair" class="h-5 w-auto">
-                <h2 class="font-medium text-base">Sair</h2>
+                <img src="img/logo-sair.png" alt="Icone do botao sair" class="h-12 w-auto">
+                <h2 class="font-xl text-base">Sair</h2>
             </div>
         </div>
     </header>
 
-    <main class="bg-red">
-        <h2>teste</h2>
+    <main class="flex justify-between m-25">
+        <div>
+            <h1 class="flex gap-3 text-[5.5rem]">Escolha um <p class="text-[#3347B0] text-[5.5rem]">curso</p></h1>
+            <h2 class="text-[5.5rem]">para gerenciar</h2>
+            <img src="img/layout_telas.png" alt="Layout de telas" class="h-100 w-auto pt-2">
+        </div>
+        <div>
+            <img class="h-175 w-auto" src="img/student.png" alt="Layout de estudante em tela home">
+        </div>
+        <div class="flex flex-col gap-2 justify-center">
+            <button class=" flex gap-1 justify-center items-center bg-[#3347B0] hover:bg-blue-700 text-white font-semibold text-xl pt-3 pb-3 h-50 w-100 rounded-lg shadow-md transition-all duration-200 ease-in-out active:scale-95 disabled:opacity-50">
+            <img src="img/Icone_DS.png" alt="Icone do botao de DS" class="h-5 w-auto">DS</button>
+            <button class="flex gap-1 justify-center items-center bg-[#3347B0] hover:bg-blue-700 text-white font-semibold text-xl pt-3 pb-3 w-60 h-50 w-100 rounded-lg shadow-md transition-all duration-200 ease-in-out active:scale-95 disabled:opacity-50">
+            <img src="img/Icone_redes.png" alt="Icone do botao de redes" class="h-5 w-auto">REDES</button>
+        </div>
     </main>
 
     <footer class="flex items-center justify-between bg-[#3347B0] text-white px-15 py-4">
@@ -43,9 +56,9 @@
                 </div>
             </div>
             <div class="flex flex-col gap-3">
-                <p class="font-medium">(11) 4774-4700</p>
-                <p class="font-medium">lionschool@gmail.com</p>
-                <p class="font-medium">Rua tcc, 211, Centro, Jandira</p>
+                <p class="font-lg">(11) 4774-4700</p>
+                <p class="font-lg">lionschool@gmail.com</p>
+                <p class="font-lg">Rua tcc, 211, Centro, Jandira</p>
             </div>
         </div>
         <div><p class="font-medium">Copyright © 2026 | Fernando Leonid</p></div>
